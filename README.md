@@ -1,15 +1,15 @@
-📊 Data Science em Cartões de Crédito — Previsão, Segmentação e Gestão de Inadimplência
+# 📊 Data Science em Cartões de Crédito — Previsão, Segmentação e Gestão de Inadimplência
 
 Este projeto demonstra uma abordagem prática de Data Science aplicada com dados de crédito. O objetivo é transformar dados brutos em diagnósticos acionáveis, identificar clientes de maior risco de inadimplência e simular o impacto de soluções concretas, tudo voltado para apoiar a tomada de decisão.
 
 
-👩‍💻 Sobre mim:
+# 👩‍💻 Sobre mim:
 Atuo há anos no departamento financeiro, com análise de indicadores, BI, automação de processos e apoio à decisão em ambientes de negócio. Sou formada em Gestão de TI e Banco de Dados, especializada em Data Science, Big Data e BI.
 
 Nos últimos meses, venho ampliando minha atuação para Data Science, desenvolvendo projetos práticos e focados em gerar valor real, como este caso, que integra análise preditiva, visualização inteligente e recomendações para área de crédito. Meu objetivo é criar soluções que facilitem a vida das pessoas, tragam eficiência operacional e apoiem estratégias de negócio baseadas em dados.
 
 
-🔎 Descrição do Caso:
+# 🔎 Descrição do Caso:
 A partir de dados públicos do UCI Credit Card Dataset, realizei todo o ciclo analítico:
 
 ETL e EDA: limpeza, transformação e análise exploratória dos dados dos clientes de cartão.
@@ -26,7 +26,7 @@ Dashboards em Power BI: visualização interativa dos resultados e recomendaçõ
 
 Geração de insights e recomendações acionáveis, conectando análise e ação.
 
-✨ Principais Destaques
+# ✨ Principais Destaques
 
 Diagnóstico visual e acionável: segmentação dos clientes e principais fatores de risco em dashboards práticos.
 
@@ -39,7 +39,7 @@ Automação de relatórios e visualizações, facilitando o uso para área de cr
 Estrutura modular e clara, fácil reaproveitamento em outros contextos.
 
 
-🚀 Como este projeto pode ajudar empresas
+# 🚀 Como este projeto pode ajudar empresas
 
 * Identifica rapidamente clientes e segmentos de maior risco, direcionando ações onde o retorno é maior.
 * Simula o impacto potencial de políticas de crédito e ações proativas.
@@ -48,7 +48,7 @@ Estrutura modular e clara, fácil reaproveitamento em outros contextos.
 * Apoia a redução da inadimplência, retenção de clientes e potencialização de receitas.
 
 
-📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
 ├── data/                            # Base de dados pública (tratada e original)
 ├── export/                          # Resultados, predições, explicabilidade (para Power BI)
@@ -59,7 +59,7 @@ Estrutura modular e clara, fácil reaproveitamento em outros contextos.
 ├── 03_Explicabilidade_e_Exportacao.ipynb  # Explicabilidade e outputs para Power BI
 └── README.md
 
-🔗 Como rodar o projeto
+# 🔗 Como rodar o projeto
 
 * Clone este repositório
 * Instale as dependências (requirements.txt)
@@ -69,7 +69,7 @@ Estrutura modular e clara, fácil reaproveitamento em outros contextos.
 * Explore os dashboards interativos e veja recomendações geradas automaticamente
 
 
-📊 Power BI
+# 📊 Power BI
 
 O painel interativo construído no Power BI pode ser acessado e explorado no arquivo:
 `/PowerBI/painel_inadimplencia_credito.pbix`
@@ -77,7 +77,7 @@ O painel interativo construído no Power BI pode ser acessado e explorado no arq
 **Dica:** Caso não possua Power BI instalado, utilize a [versão gratuita do Power BI Desktop](https://powerbi.microsoft.com/pt-br/desktop/) para abrir e visualizar o painel.
 
 
-📈 Resultados e visualizações
+# 📈 Resultados e visualizações
 A seguir, exemplos dos principais resultados, sempre acompanhados de explicação do significado:
 
 🟪 Matriz de Confusão — Predição de Inadimplência
@@ -92,7 +92,7 @@ Como interpretar: Visualização dos clientes por faixa etária, limite de créd
 🟧 Checklist Visual — Ações Sugeridas
 Como interpretar: Para cada faixa de risco, recomendações práticas: revisar limite, contato proativo, renegociação etc.
 
-🛠️ Principais Recomendações
+# 🛠️ Principais Recomendações
 
 * Aja proativamente sobre clientes de alto risco (probabilidade >80%)
 * Revise limites e condições para esse grupo, priorizando renegociação
@@ -100,11 +100,11 @@ Como interpretar: Para cada faixa de risco, recomendações práticas: revisar l
 * Automatize monitoramento contínuo com os outputs do modelo
 
 
-📝 Observações finais
+# 📝 Observações finais
 Este projeto é um case prático de portfólio, demonstrando como Data Science pode apoiar o setor financeiro na prevenção à inadimplência, segmentação de risco e aumento da eficiência operacional.
 Toda a lógica está documentada, fácil de adaptar para bancos, fintechs e financeiras.
 Dados usados são públicos (UCI Credit Card Dataset), prontos para compartilhar, sem restrição.
 
 
-📫 Contato
+# 📫 Contato
 • LinkedIn: https://www.linkedin.com/in/jaquelinesousat/
